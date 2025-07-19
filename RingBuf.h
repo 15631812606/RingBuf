@@ -39,5 +39,5 @@ eRingBufState_t RingBuf_WriteOneByte(sRingBuf_t *pRingBuf, uint8_t data);
 eRingBufState_t RingBuf_ReadOneByte(sRingBuf_t *pRingBuf, uint8_t *pBuf);
 eRingBufState_t RingBuf_Write(sRingBuf_t *pRingBuf, uint8_t *wBuf, uint32_t len);
 eRingBufState_t RingBuf_Read(sRingBuf_t *pRingBuf, uint8_t *rBuf, uint32_t len);
-uint32_t RingBuf_GetDataLen(sRingBuf_t *pRingBuf, uint32_t *pLen);
+uint32_t RingBuf_GetDataLen(sRingBuf_t *pRingBuf);
 
